@@ -198,8 +198,23 @@ h2 {
 
 .workGridImgDiv {
     justify-content: space-between;
-
+    padding: 30px
 }
+
+.workGridImg {
+    padding: 30px 0px
+}
+
+.zoom {
+    transition: transform ;
+    transition-duration: 2s;
+  }
+
+  .zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
 
 
 @media only screen and (max-width: 600px) {
