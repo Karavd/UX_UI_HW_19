@@ -302,17 +302,18 @@ h1 {
     }
 
     nav {
-        margin: 1% auto;
         padding: 0;
+        width: 100%;
     }
 
  .navList {
-    padding-left: 0;
+    padding: 0;
 
  }
 
  .scalingText {
-    font-size: medium;
+    font-size: 3.1vw;
+
  }
 
  .footer p {
